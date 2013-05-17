@@ -5,7 +5,7 @@ A series of C API examples taken &amp; modified from http://dan.iel.fm/posts/pyt
 
 Requirements
 ------------
-이 예제는 Ubuntu 12.04 64bit Server Edition, C Python 3.3.0 (개발용 header 파일 포함), NumPy 1.7 이상을 필요로 합니다.
+이 예제는 Ubuntu 12.04 64bit Server Edition, C Python 3.3.0 (개발용 header 파일 포함), NumPy 1.7 환경에서 테스트하였습니다.
 
 chi2-capi
 ---------
