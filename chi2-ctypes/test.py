@@ -25,13 +25,10 @@ if __name__ == '__main__':
 
     x = np.random.normal(mu_x, sig_x, N).astype('float64')
     x_p = x.ctypes.data_as(POINTER(c_double))
-
     y = np.random.normal(mu_y, sig_y, N).astype('float64')
     y_p = y.ctypes.data_as(POINTER(c_double))
-
     yerr = np.array([sig_y] * N, 'float64')
     yerr_p = yerr.ctypes.data_as(POINTER(c_double))
-
     result = c_double()
     result_p = pointer(result)
 
