@@ -15,8 +15,9 @@ chi2-capi
 chi2-ctypes
 -----------
  * 컴파일 방법 : `python3 setup.py build_ext --inplace`
- * 테스트 방법 : `python3 chi2.py`
+ * 테스트 방법 : `python3 test.py`
 
 chi2-cython
 -----------
- * TODO
+ * 컴파일 방법 : `python3 setup.py build_ext --inplace`
+ * 테스트 방법 : `python3 test.py`
