@@ -30,7 +30,7 @@ if __name__ == '__main__':
     y_p = y.ctypes.data_as(POINTER(c_double))
 
     yerr = np.array([sig_y] * N, 'float64')
-    yerr_p = y.ctypes.data_as(POINTER(c_double))
+    yerr_p = yerr.ctypes.data_as(POINTER(c_double))
 
     result = c_double()
     result_p = pointer(result)
