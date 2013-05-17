@@ -12,7 +12,7 @@ NumPy, Cython, CFFI 모두 pip를 이용해 설치하실 수 있습니다.
 chi2-capi
 ---------
  * 컴파일 방법 : `python3 setup.py build_ext --inplace`
- * 실행 방법 : `python3` 실행 후 `import _chi2`
+ * 테스트 방법 : `python3 test.py`
 
 chi2-ctypes
 -----------
